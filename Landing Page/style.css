@@ -1,0 +1,111 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+.hh{
+    
+    background: url(./Assets/Untitled\ Project\ \(3\).jpg);
+}
+.ftxt{
+    width: clamp(270px,60%,952px);
+}
+.d1{
+    padding-block: 100px;
+    text-align: center;
+    margin-bottom:200px;
+}
+
+.fimg{ width: clamp(300px,80%,1000px);
+    position:absolute;
+    top:20%;
+    left: 10%;
+}
+.d2{
+    text-align: center;
+   position: relative;
+ margin-bottom: 300px;
+}
+.txt2{ width: clamp(100px,100%,100%);
+padding-inline: 12%;
+    font-size: 4rem;
+    font-weight: 300;
+    color: aliceblue;
+    position: relative;
+z-index: 1;
+}
+.fimg2{ width: clamp(300px,60%,952px);
+    position:absolute;
+   left: 20%;
+    top: 80%;
+    z-index: 0;
+}
+.fimg3{width: clamp(300px,60%,952px);
+   height:  clamp(100px,60%,360px);
+}
+.d3{
+padding-top:00px ;
+}
+.p{
+    display: flex;
+    color: aliceblue;
+    font-size:1.7rem;
+    flex-wrap: wrap;
+}
+.p p{
+    width: 50%;
+    padding-inline: 30px;
+}
+.d4{
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.d4 p{
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-top: 20px;
+    padding-inline: 15%;
+}
+.btn1{
+    border: 2px solid white;
+    background-color: transparent;
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+.btn1:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+.d5,.e1 ,.e2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.d5{
+    flex-direction: row;
+  width: 100%;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.e1 ,.e2{
+    padding-inline: 50px;
+}
+.e1 img,.e2 img{
+    width: clamp(200px, 70%,800px);
+}
+.contact{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    font-family: monospace;
+    color: aliceblue;
+}
+.contact h3>{
+    font-family: monospace;
+}
